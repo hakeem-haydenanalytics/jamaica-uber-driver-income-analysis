@@ -46,6 +46,8 @@ Fuel Economy:
 Fuel Price:
 JMD 220/L  
 
+<br>
+
 ### Outlier Detection
 Trips are classified as valid when earnings per minute fall between the 5th and 95th percentiles.
 
@@ -57,8 +59,9 @@ This removes:
 
 while retaining approximately 90% of valid driving activity.  
 
+<br>
 
-### Monthly Forecast - 168 hours (40-hour work week)
+### Monthly Forecast - 168 hours (standard 40-hour week)
 Projected mileage:
 4,173 km/month
 

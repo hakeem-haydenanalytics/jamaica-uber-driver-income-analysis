@@ -24,7 +24,6 @@ The analysis includes:
 ---
 
 ## Dashboard Summary
-
 | Metric | Value |
 |----------|---------:|
 | Effective Net Earnings | JMD 1,688/hr |
@@ -39,7 +38,6 @@ The analysis includes:
 ## Methodology
 
 ### Fuel Cost
-
 Fuel consumption is estimated using:
 
 Fuel Economy:
@@ -49,35 +47,29 @@ Fuel Price:
 JMD 220/L
 
 ### Outlier Detection
-
 Trips are classified as valid when earnings per minute fall between the 5th and 95th percentiles.
 
 This removes:
 
 - Cancelled trips
-- Earnings adjustment anomalies
+- Earnings adjustment anomalies (ex. uber recalculations for rides not ended by driver)
 - Unrealistic surge trips
 
 while retaining approximately 90% of valid driving activity.
 
-### Monthly Forecast
-
+### Monthly Forecast - 168 hours (40-hour work week)
 Projected mileage:
-
 4,173 km/month
 
 Projected fuel consumption:
-
 296 L/month
 
 Projected net income:
-
 JMD 263,992/month
 
 ---
 
 ## Key Insights
-
 - Average net earnings after fuel costs exceed JMD 1,600/hr.
 - Fuel consumes approximately 15% of gross earnings.
 - A full-time driver working a standard 40-hour week can expect approximately JMD 264,000 monthly net income after fuel.
@@ -86,7 +78,6 @@ JMD 263,992/month
 ---
 
 ## Files
-
 - Dashboard Screenshot
 - PDF Report
 - Spreadsheet Model

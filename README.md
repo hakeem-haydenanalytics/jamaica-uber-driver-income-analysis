@@ -44,7 +44,7 @@ Fuel Economy:
 14 km/L
 
 Fuel Price:
-JMD 220/L
+JMD 220/L  
 
 ### Outlier Detection
 Trips are classified as valid when earnings per minute fall between the 5th and 95th percentiles.
@@ -55,7 +55,8 @@ This removes:
 - Earnings adjustment anomalies (ex. uber recalculations for rides not ended by driver)
 - Unrealistic surge trips
 
-while retaining approximately 90% of valid driving activity.
+while retaining approximately 90% of valid driving activity.  
+
 
 ### Monthly Forecast - 168 hours (40-hour work week)
 Projected mileage:
